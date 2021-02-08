@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 
+my hosted example 👇
+https://shineprincess.github.io/useState-with-arrays/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
