@@ -1,11 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Serif:ital@1&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color: lightblue;
-  font-family: 'Lobster', cursive;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Noto Serif", serif;
 }
 div {
   width: 100%;
@@ -32,15 +35,34 @@ div {
   color: white;
 }
 
-
 .heading__style {
-  color: black;
+  color: rgb(133, 53, 199);
   margin-bottom: 1rem;
+  background-color: rgb(223, 211, 217);
+  border-radius: 7px;
+  width: 35%;
+  /* text-align: center; */
+  padding: 10px 0px;
+  position: relative;
+  padding: 15px;
+  box-shadow: 10px 10px 50px 5px rgb(131, 125, 126);
+}
+
+.remove__style {
+  /* position: absolute; */
+  margin: 10px;
+  padding: 5px;
+  background-color: red;
+  border-radius: 3px;
+  color: bisque;
+  text-transform: capitalize;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
 .buttonHooks__style {
-  background-color: white; 
-  color: black; 
+  background-color: white;
+  color: black;
   border: none;
   padding: 15px 32px;
   text-align: center;
@@ -51,11 +73,20 @@ div {
   cursor: pointer;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 3px;
 }
 
 .buttonHooks__style:hover {
-  background-color: #008CBA;
+  background-color: #008cba;
   color: white;
+}
+
+
+
+@media only screen  and (max-width: 768px) {  
+  .heading__style{
+    width: 90%;
+    
+  }
 }
