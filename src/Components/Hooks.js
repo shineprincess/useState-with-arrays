@@ -5,14 +5,19 @@ const Hooks = () => {
 
   const myBioData = [
     {
-      id: 1,
+      id: 0,
       myName: "Piyu",
       age: 19,
     },
     {
-      id: 2,
+      id: 1,
       myName: "Piya",
       age: 19,
+    },
+    {
+      id: 2,
+      myName: "Elena",
+      age: 20,
     },
   ];
 
